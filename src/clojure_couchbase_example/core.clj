@@ -64,3 +64,9 @@
     (take num-entries)
     time))
 
+(defn -main [& [entries]]
+  ;  (run-benchmark 2))
+  (let [num-entries (Integer. (or entries (System/getenv "ENTRIES")))]
+    (run-benchmark num-entries)))
+
+
