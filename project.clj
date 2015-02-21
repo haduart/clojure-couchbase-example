@@ -32,5 +32,4 @@
 
   :aliases {"dev" ["do" "test"]}
 
-  :main clojure-couchbase-example.core
-  )
+  :main clojure-couchbase-example.core)
